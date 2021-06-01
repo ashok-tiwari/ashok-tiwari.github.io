@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sarah Strand | Ashok&#39;s page</title>
+    <link>https://ashok-tiwari.github.io/authors/sarah-strand/</link>
+      <atom:link href="https://ashok-tiwari.github.io/authors/sarah-strand/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sarah Strand</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Ashok Tiwari</copyright><lastBuildDate>Sun, 12 Jul 2020 08:30:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ashok-tiwari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Sarah Strand</title>
+      <link>https://ashok-tiwari.github.io/authors/sarah-strand/</link>
+    </image>
+    
+    <item>
+      <title>Experimental validation of Monte Carlo-generated beta absorbed doses for 3D voxelwise dosimetry</title>
+      <link>https://ashok-tiwari.github.io/talk/experimental-validation-of-monte-carlo-generated-beta-absorbed-doses-for-3d-voxelwise-dosimetry/</link>
+      <pubDate>Sun, 12 Jul 2020 08:30:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/talk/experimental-validation-of-monte-carlo-generated-beta-absorbed-doses-for-3d-voxelwise-dosimetry/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation slides.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

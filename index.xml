@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ashok&#39;s page</title>
+    <link>https://ashok-tiwari.github.io/</link>
+      <atom:link href="https://ashok-tiwari.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ashok&#39;s page</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Ashok Tiwari</copyright><lastBuildDate>Sat, 12 Jun 2021 08:30:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ashok-tiwari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Ashok&#39;s page</title>
+      <link>https://ashok-tiwari.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Monte Carlo simulation of 4-ring Discovery MI PET/CT scanner and its extended axial field-of-view to 2 m</title>
+      <link>https://ashok-tiwari.github.io/talk/monte-carlo-simulation-of-4-ring-discovery-mi-pet/ct-scanner-and-its-extended-axial-field-of-view-to-2-m/</link>
+      <pubDate>Sat, 12 Jun 2021 08:30:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/talk/monte-carlo-simulation-of-4-ring-discovery-mi-pet/ct-scanner-and-its-extended-axial-field-of-view-to-2-m/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation slides.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    This is an &lt;strong&gt;accepted version&lt;/strong&gt; of abstract for poster presentation in SNMMI Virtual Annual Meeting 2021, which is yet to be presented!
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analyzing the output file (analysis.json) obtained from SNMMI’s Phantom Analysis Toolkit (PAT) program</title>
+      <link>https://ashok-tiwari.github.io/post/json_parsing/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/post/json_parsing/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This post will share our python developments to analyze the &lt;a href=&#34;https://www.snmmi.org/PAT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SNMMI’s Phantom Analysis Toolkit (PAT)&lt;/a&gt; analysis.json output file.&lt;/p&gt;
+&lt;p&gt;The SNMMI is providing a cloud-based automated Phantom Analysis Toolkit (PAT). Using this program, we can analyze the PET phantoms data such as: the CTN chest phantom, uniform phantom, the NEMA Image Quality phantom, and the ACR phantom data. We can upload the phantom DICOM data for analysis in this program, enter the phantom filling information, and subsequently initiate the analysis. After all these steps, we can download the results.&lt;/p&gt;
+&lt;p&gt;If one is interested in analyzing the detailed results obtained from NEMA or CTN phantoms, one could work on the analysis.json file. This file is written in JavaScript Object Notation (JSON).&lt;/p&gt;
+&lt;h2 id=&#34;parsing-json-file-using-python&#34;&gt;Parsing JSON file using Python&lt;/h2&gt;
+&lt;p&gt;Here I will describe how can we use Pandas Python data analysis library to analyze this analyse.json file. This library makes it extremely easy to visualize the data in tabular form. This library is arguably the most popular data analysis and data visualization library.&lt;/p&gt;
+&lt;p&gt;Attached is the python script to analyse and visualize the CTN phantom output analysis.json file. The code is self-explanatory, and its output is also saved in a single file to illustrate how each line of code works. The illustration was performed in Jupyter Notebook.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Python code&lt;/strong&gt;, including the analysis output, is linked here: &lt;a href=&#34;json-analysis-version-3.html&#34;&gt; click here to get a page that contains all the details&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Questions after reading this post?&lt;/em&gt;&lt;/strong&gt; Please shoot me an email at: &lt;a href=&#34;mailto:ashok-tiwari@uiowa.edu&#34;&gt;ashok-tiwari@uiowa.edu&lt;/a&gt;; I am happy to answer any questions you may have related to this work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GATE simulation of Discovery MI PET scanner and its extended axial field of view to 2 m</title>
+      <link>https://ashok-tiwari.github.io/talk/gate-simulation-of-discovery-mi-pet-scanner-and-its-extended-axial-field-of-view-to-2-m/</link>
+      <pubDate>Thu, 20 May 2021 09:50:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/talk/gate-simulation-of-discovery-mi-pet-scanner-and-its-extended-axial-field-of-view-to-2-m/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation slides.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Monte Carlo Simulation of Discovery MI PET scanner</title>
+      <link>https://ashok-tiwari.github.io/project/mc_simulation_dmi/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/project/mc_simulation_dmi/</guid>
+      <description>&lt;p&gt;The aim of this work was to simulate the Discovery MI (4-ring) PET scanner using the GATE toolkit.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Work in progress, &lt;strong&gt;this page&lt;/strong&gt; will be updated soon!
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PET data acquisition</title>
+      <link>https://ashok-tiwari.github.io/post/pet_data_acquisition/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/post/pet_data_acquisition/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Work in progress, &lt;strong&gt;this page&lt;/strong&gt; will be updated soon!!!
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--
+This is a comment!
+
+
+1. Explain the geometry of DMI PET scanner:
+2. Explain the data acquisition settings with digitizer in GATE simulation:
+3. Explain root to GATE conversion process and parameters
+4. Put figure of DMI Michelogram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-above-figure-is-called-michelogram-where-x-and-y-axis-represents-the-scanner-ring-1-and-ring-2&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;Above figure is called Michelogram, where x and y-axis represents the scanner ring 1 and ring 2. &#34; srcset=&#34;
+               /post/pet_data_acquisition/michelogram_hu337ec6705ab174e6b3299c2fa8f8453a_222776_db97fdc35c543b2eba7e6f205b2ea728.PNG 400w,
+               /post/pet_data_acquisition/michelogram_hu337ec6705ab174e6b3299c2fa8f8453a_222776_810e871f8bcf8ed60134139bdd594812.PNG 760w,
+               /post/pet_data_acquisition/michelogram_hu337ec6705ab174e6b3299c2fa8f8453a_222776_1200x1200_fit_lanczos_2.PNG 1200w&#34;
+               src=&#34;https://ashok-tiwari.github.io/post/pet_data_acquisition/michelogram_hu337ec6705ab174e6b3299c2fa8f8453a_222776_db97fdc35c543b2eba7e6f205b2ea728.PNG&#34;
+               width=&#34;760&#34;
+               height=&#34;586&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Above figure is called Michelogram, where x and y-axis represents the scanner ring 1 and ring 2.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+## Geometry of DMI PET scanner
+
+## Data Acquisition
+
+## Data corrections 
+1. Attenuation correction
+2. Randoms correction
+3. Scatter correction
+4. Normalisation correction
+
+## Image reconstructions
+
+- **Work in progress**, this page will be updated soon.
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Work in progress, &lt;strong&gt;this page&lt;/strong&gt; will be updated soon!!!
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>511 keV photons counting simulation studies</title>
+      <link>https://ashok-tiwari.github.io/project/photon_counting_expt/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/project/photon_counting_expt/</guid>
+      <description>&lt;p&gt;The aim of this work is to calculate the self-absorption correction factor for the SIR-Sphere activity measurements.&lt;/p&gt;
+&lt;p&gt;GATE Monte Carlo simulations were used to estimate the number of 511 keV photons reached to the HPGe detector with and without the source self-attenuation (attenuation due to the source container, HDPE, glass vial, source liquid) to estimate the fraction of 511 keV photons reach to the HPGe detector out of the source. This simulation work was to simulate the 90Y source to track down the 511 keV photons detected in the HPGe detector. Instead of simulation of the full 90Y decay spectrum, only the 511 keV emissions from the source were simulated. This reduced the simulation time by the factor of ~ (1.6-1.8). A total of 10 billion 511 keV photons were simulated for precise estimation.&lt;/p&gt;
+&lt;p&gt;The material densities used in this work is HPDE of density 0.966 $ \frac{g}{cm^{3} }$, glass of density 2.58 $ \frac{g}{cm^{3} }$, water, and air of 1.25 $ \frac{mg}{cm^{3} }$. The HPDE material was directly measured from the stock material. Glass vial thickness of 0.224 cm was simulated.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;Results&lt;/strong&gt; will be included in a manuscript, which is under preparation!
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Imaging and dosimetric characteristics of 67 Cu</title>
+      <link>https://ashok-tiwari.github.io/publication/imaging_char_cu67_paper/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/publication/imaging_char_cu67_paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-resolution beta particles dosimetry using GATE Monte Carlo simulation for radiopharmaceutical dosimetry</title>
+      <link>https://ashok-tiwari.github.io/talk/high-resolution-beta-particles-dosimetry-using-gate-monte-carlo-simulation-for-radiopharmaceutical-dosimetry/</link>
+      <pubDate>Thu, 10 Sep 2020 14:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/talk/high-resolution-beta-particles-dosimetry-using-gate-monte-carlo-simulation-for-radiopharmaceutical-dosimetry/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation slides.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Absorbed dose distributions from beta‐decaying radionuclides: Experimental validation of Monte Carlo tools for radiopharmaceutical dosimetry</title>
+      <link>https://ashok-tiwari.github.io/publication/absorbed_dose_dist_med_phy/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/publication/absorbed_dose_dist_med_phy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experimental validation of Monte Carlo-generated beta absorbed doses for 3D voxelwise dosimetry</title>
+      <link>https://ashok-tiwari.github.io/talk/experimental-validation-of-monte-carlo-generated-beta-absorbed-doses-for-3d-voxelwise-dosimetry/</link>
+      <pubDate>Sun, 12 Jul 2020 08:30:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/talk/experimental-validation-of-monte-carlo-generated-beta-absorbed-doses-for-3d-voxelwise-dosimetry/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation slides.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Beta Absorbed Dose Measurements</title>
+      <link>https://ashok-tiwari.github.io/project/beta_absorbed_dose_dis_project/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/project/beta_absorbed_dose_dis_project/</guid>
+      <description>&lt;p&gt;This project aimed to experimentally validate the GATE Monte Carlo genarated beta absorbed dose distributions. Lu177 and Y90 beta-emitting radionuclides were taken into consideraton for absorbed dose measurements. Radiochromic film (EBT3) was used as a detector for absorbed dose measurements. The film is sandwiched in between two tissue-equivalent materials purchased from &lt;a href=&#34;http://www.cirsinc.com/wp-content/uploads/2020/08/TEM-DS-062320.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIRS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The summary of this project is published in Medical Physics, 2020. &lt;a href=&#34;https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.14463&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Please click here to see the details of the experiment design, Monte Carlo simulation setup and uncertainty estimations.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Large Chest Phantom for Positron Emission Tomography</title>
+      <link>https://ashok-tiwari.github.io/project/pet_chest_phantom_project/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/project/pet_chest_phantom_project/</guid>
+      <description>&lt;p&gt;The aim of this work is to make the large chest anthropomorphic phantom that closely mimicks the average american adult (male) chest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Interior of the Phantom:&lt;/strong&gt;
+There are a total of 16 spheres (tumors) inside the phantom. This includes 12 Clinical Trial Network (CTN) chest phantom spheres (37, 28, 22, 22, 17, 17, 13, 13, 10, 10, 10, 7 mm) and four additional spheres of internal diameters (19, 15.5, 11.5, and 8.5 mm). These dimensions are the interior diameter of the spheres. All spheres and interior platform of the phantom were 3D printed. Each sphere has a shell thickness of 1 mm. The 12 CTN size speres are placed in the same position as that in CTN chest phantom for fair comparison. The lung cavities consists of spongy materials that closely mimicks the lung tissue of density ~0.3 $ \frac{g}{cm^{3} }$. The total volume occupied by the lungs in this phantom is ~6.038 Liter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-1-interior-of-the-phantom-platform-dimensions&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;Figure 1: Interior of the phantom platform dimensions.&#34; srcset=&#34;
+               /project/pet_chest_phantom_project/ctn1_hu6033160102da2d3067428dc3d0e87b7b_244092_7cc48c61939828809c31e4a342fd5c01.png 400w,
+               /project/pet_chest_phantom_project/ctn1_hu6033160102da2d3067428dc3d0e87b7b_244092_e7f48d42d23511d67cf21d83b4a143e6.png 760w,
+               /project/pet_chest_phantom_project/ctn1_hu6033160102da2d3067428dc3d0e87b7b_244092_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://ashok-tiwari.github.io/project/pet_chest_phantom_project/ctn1_hu6033160102da2d3067428dc3d0e87b7b_244092_7cc48c61939828809c31e4a342fd5c01.png&#34;
+               width=&#34;760&#34;
+               height=&#34;618&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 1: Interior of the phantom platform dimensions.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+As in CTN existing phantom, we made two circuitary paths to fill this phantom volume. The figure 2 below shows the spheres labelling (A, B, &amp;hellip; ,P ,Q). Where, I is two 10 mm contiguous spheres and P and Q are overflow containers for two circuit paths. Fluid path 1 has a sphere volume of ~42.5 ml and fills the spheres (B-&amp;gt;D-&amp;gt;H-&amp;gt;J-&amp;gt;M-&amp;gt;O-&amp;gt;Q) and the fluid path 2 has a sphere volume of ~22.5 ml and fills the spheres (C-&amp;gt;E-&amp;gt;I-&amp;gt;L-&amp;gt;A-&amp;gt;F-&amp;gt;G-&amp;gt;K-&amp;gt;N-&amp;gt;P). A total of ~75 ml radioactive solution is needed to fill all the spheres (total volume ~65 ml) and tubing volume (path 1: 48 ml, path 2: 27 ml).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-2-labelling-of-spheres-for-radioactive-solution-injection-paths&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;Figure 2: Labelling of spheres for radioactive solution injection paths.&#34; srcset=&#34;
+               /project/pet_chest_phantom_project/ctn2_hufb3b22ad5da7714f339bd9fb3d32de84_1445986_71b625ee6fa09fb81b34db7cb3c1fd80.png 400w,
+               /project/pet_chest_phantom_project/ctn2_hufb3b22ad5da7714f339bd9fb3d32de84_1445986_dbd2b5d7dfe4dc7beb0042c052313d3c.png 760w,
+               /project/pet_chest_phantom_project/ctn2_hufb3b22ad5da7714f339bd9fb3d32de84_1445986_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://ashok-tiwari.github.io/project/pet_chest_phantom_project/ctn2_hufb3b22ad5da7714f339bd9fb3d32de84_1445986_71b625ee6fa09fb81b34db7cb3c1fd80.png&#34;
+               width=&#34;760&#34;
+               height=&#34;671&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 2: Labelling of spheres for radioactive solution injection paths.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Phantom measurements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dry phantom weight = 3.54 kg&lt;/li&gt;
+&lt;li&gt;Phantom fill volume = 22.35 Liter&lt;/li&gt;
+&lt;li&gt;Total phantom weight after filling = 25.90 kg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-3-imaging-of-phantom-using-discovery-mi-scanner&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;Figure 3: Imaging of phantom using Discovery MI scanner.&#34; srcset=&#34;
+               /project/pet_chest_phantom_project/ctn3_hu51525080522c42f3bcb7e6a46d54db1d_1584863_5712d21f0159e57898b2f97c5dd5124e.png 400w,
+               /project/pet_chest_phantom_project/ctn3_hu51525080522c42f3bcb7e6a46d54db1d_1584863_8a101ea2efd527b76c3fff09087dcac9.png 760w,
+               /project/pet_chest_phantom_project/ctn3_hu51525080522c42f3bcb7e6a46d54db1d_1584863_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://ashok-tiwari.github.io/project/pet_chest_phantom_project/ctn3_hu51525080522c42f3bcb7e6a46d54db1d_1584863_5712d21f0159e57898b2f97c5dd5124e.png&#34;
+               width=&#34;760&#34;
+               height=&#34;592&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 3: Imaging of phantom using Discovery MI scanner.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+This phantom is currently being inspected at different institutions (University of Iowa, University of Pensylvania, and Royal Prince Alfred Hospital in Australia).&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Work in progress, &lt;strong&gt;this page&lt;/strong&gt; will be updated later!
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Impact of Tissue Types on Dose Point Kernels</title>
+      <link>https://ashok-tiwari.github.io/project/dpks_project/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/project/dpks_project/</guid>
+      <description>&lt;p&gt;The aim of this work was to simulate dose point kernels for clinically-relevant radionuclide beta decays and monoenergetic electrons in varying tissue types in order to facilitate accurate patient-specific voxel-wise dosimetry. Currently available voxel-wise approaches to radionuclide dosimetry ignore tissue composition and do not account for density heterogeneities through kernel stretching. More sophisticated convolution superposition algorithms rely on robust pre-tabulated tissue-specific dose kernels, so the work described herein will support advancements in personalized dosimetry.&lt;/p&gt;
+&lt;p&gt;Simulations were performed using GATE Monte Carlo toolkit which encapsulates GEANT4 libraries. GATE is a validated simulation software for imaging, radiotherapy and dosimetry applications. Dose point kernels were simulated in phantoms of water, compact bone, lung, adipose tissue, blood, and marrow for radionuclides such as 177Lu, 90Y, 186Re, 188Re, 32P,153Sm, and 89Sr and monoenergetic electrons (0.015-10) MeV. All simulations were performed by assuming an isotropic point-source of electrons at the center of a homogeneous spherical phantom. Absorbed dose was tallied in concentric spherical shells around the point source.&lt;/p&gt;
+&lt;p&gt;Transport of 20 million particles was found to provide sufficient statistical precision in all simulated kernels. An electron step-size of 8.3% was found to yield diminishing returns in accuracy compared with 5%, where a step size of 20% yielded significant kernel inaccuracy. The simulated dose point kernels demonstrate excellent agreement with other Monte Carlo packages. Deviation from literature kernels does not exceed a 10% global difference, which is consistent with the variability between published results.&lt;/p&gt;
+&lt;p&gt;Patients stand to benefit from personalized dosimetry through control of normal tissue toxicity while simultaneously maximizing therapeutic effect. These new kernels provide the necessary inputs for next-generation voxel-wise dosimetry, which will account for tissue type and density.&lt;/p&gt;
+&lt;p&gt;Details in the publications: (1). &lt;a href=&#34;https://meridian.allenpress.com/radiation-research/article-abstract/193/6/531/436368/The-Impact-of-Tissue-Type-and-Density-on-Dose&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Impact of Tissue Type and Density on Dose Point Kernels for Patient-Specific Voxel-Wise Dosimetry: A Monte Carlo Investigation&lt;/a&gt; (2). &lt;a href=&#34;https://jnm.snmjournals.org/content/60/supplement_1/274&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Measurements of dose point kernels using GATE Monte Carlo toolkit for personalized convolution dosimetry&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Impact of Tissue Type and Density on Dose Point Kernels for Patient-Specific Voxel-Wise Dosimetry: A Monte Carlo Investigation</title>
+      <link>https://ashok-tiwari.github.io/publication/dpks_paper/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/publication/dpks_paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reply to “Comment on ‘Observation of annual modulation induced by γ rays from (α,γ) reactions at the Soudan Underground Laboratory&#39; ”</title>
+      <link>https://ashok-tiwari.github.io/publication/reply_comment_obser_ann_mod/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/publication/reply_comment_obser_ann_mod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measurements of dose point kernels using GATE Monte Carlo toolkit for personalized convolution dosimetry</title>
+      <link>https://ashok-tiwari.github.io/talk/measurements-of-dose-point-kernels-using-gate-monte-carlo-toolkit-for-personalized-convolution-dosimetry/</link>
+      <pubDate>Sun, 23 Jun 2019 12:30:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/talk/measurements-of-dose-point-kernels-using-gate-monte-carlo-toolkit-for-personalized-convolution-dosimetry/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation slides.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://ashok-tiwari.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Observation of annual modulation induced by γ rays from (α,γ) reactions at the Soudan Underground Laboratory</title>
+      <link>https://ashok-tiwari.github.io/publication/observation_annal_mod_paper/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/publication/observation_annal_mod_paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gravitational radiation from a particle in bound orbit around a black hole; relativistic correction</title>
+      <link>https://ashok-tiwari.github.io/publication/gravitational_rad_paper/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/publication/gravitational_rad_paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ashok-tiwari.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

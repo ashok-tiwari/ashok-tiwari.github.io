@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phantom | Ashok&#39;s page</title>
+    <link>https://ashok-tiwari.github.io/tag/phantom/</link>
+      <atom:link href="https://ashok-tiwari.github.io/tag/phantom/index.xml" rel="self" type="application/rss+xml" />
+    <description>Phantom</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Ashok Tiwari</copyright><lastBuildDate>Mon, 31 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ashok-tiwari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Phantom</title>
+      <link>https://ashok-tiwari.github.io/tag/phantom/</link>
+    </image>
+    
+    <item>
+      <title>Analyzing the output file (analysis.json) obtained from SNMMI’s Phantom Analysis Toolkit (PAT) program</title>
+      <link>https://ashok-tiwari.github.io/post/json_parsing/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/post/json_parsing/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This post will share our python developments to analyze the &lt;a href=&#34;https://www.snmmi.org/PAT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SNMMI’s Phantom Analysis Toolkit (PAT)&lt;/a&gt; analysis.json output file.&lt;/p&gt;
+&lt;p&gt;The SNMMI is providing a cloud-based automated Phantom Analysis Toolkit (PAT). Using this program, we can analyze the PET phantoms data such as: the CTN chest phantom, uniform phantom, the NEMA Image Quality phantom, and the ACR phantom data. We can upload the phantom DICOM data for analysis in this program, enter the phantom filling information, and subsequently initiate the analysis. After all these steps, we can download the results.&lt;/p&gt;
+&lt;p&gt;If one is interested in analyzing the detailed results obtained from NEMA or CTN phantoms, one could work on the analysis.json file. This file is written in JavaScript Object Notation (JSON).&lt;/p&gt;
+&lt;h2 id=&#34;parsing-json-file-using-python&#34;&gt;Parsing JSON file using Python&lt;/h2&gt;
+&lt;p&gt;Here I will describe how can we use Pandas Python data analysis library to analyze this analyse.json file. This library makes it extremely easy to visualize the data in tabular form. This library is arguably the most popular data analysis and data visualization library.&lt;/p&gt;
+&lt;p&gt;Attached is the python script to analyse and visualize the CTN phantom output analysis.json file. The code is self-explanatory, and its output is also saved in a single file to illustrate how each line of code works. The illustration was performed in Jupyter Notebook.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Python code&lt;/strong&gt;, including the analysis output, is linked here: &lt;a href=&#34;json-analysis-version-3.html&#34;&gt; click here to get a page that contains all the details&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Questions after reading this post?&lt;/em&gt;&lt;/strong&gt; Please shoot me an email at: &lt;a href=&#34;mailto:ashok-tiwari@uiowa.edu&#34;&gt;ashok-tiwari@uiowa.edu&lt;/a&gt;; I am happy to answer any questions you may have related to this work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Large Chest Phantom for Positron Emission Tomography</title>
+      <link>https://ashok-tiwari.github.io/project/pet_chest_phantom_project/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/project/pet_chest_phantom_project/</guid>
+      <description>&lt;p&gt;The aim of this work is to make the large chest anthropomorphic phantom that closely mimicks the average american adult (male) chest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Interior of the Phantom:&lt;/strong&gt;
+There are a total of 16 spheres (tumors) inside the phantom. This includes 12 Clinical Trial Network (CTN) chest phantom spheres (37, 28, 22, 22, 17, 17, 13, 13, 10, 10, 10, 7 mm) and four additional spheres of internal diameters (19, 15.5, 11.5, and 8.5 mm). These dimensions are the interior diameter of the spheres. All spheres and interior platform of the phantom were 3D printed. Each sphere has a shell thickness of 1 mm. The 12 CTN size speres are placed in the same position as that in CTN chest phantom for fair comparison. The lung cavities consists of spongy materials that closely mimicks the lung tissue of density ~0.3 $ \frac{g}{cm^{3} }$. The total volume occupied by the lungs in this phantom is ~6.038 Liter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-1-interior-of-the-phantom-platform-dimensions&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;Figure 1: Interior of the phantom platform dimensions.&#34; srcset=&#34;
+               /project/pet_chest_phantom_project/ctn1_hu6033160102da2d3067428dc3d0e87b7b_244092_7cc48c61939828809c31e4a342fd5c01.png 400w,
+               /project/pet_chest_phantom_project/ctn1_hu6033160102da2d3067428dc3d0e87b7b_244092_e7f48d42d23511d67cf21d83b4a143e6.png 760w,
+               /project/pet_chest_phantom_project/ctn1_hu6033160102da2d3067428dc3d0e87b7b_244092_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://ashok-tiwari.github.io/project/pet_chest_phantom_project/ctn1_hu6033160102da2d3067428dc3d0e87b7b_244092_7cc48c61939828809c31e4a342fd5c01.png&#34;
+               width=&#34;760&#34;
+               height=&#34;618&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 1: Interior of the phantom platform dimensions.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+As in CTN existing phantom, we made two circuitary paths to fill this phantom volume. The figure 2 below shows the spheres labelling (A, B, &amp;hellip; ,P ,Q). Where, I is two 10 mm contiguous spheres and P and Q are overflow containers for two circuit paths. Fluid path 1 has a sphere volume of ~42.5 ml and fills the spheres (B-&amp;gt;D-&amp;gt;H-&amp;gt;J-&amp;gt;M-&amp;gt;O-&amp;gt;Q) and the fluid path 2 has a sphere volume of ~22.5 ml and fills the spheres (C-&amp;gt;E-&amp;gt;I-&amp;gt;L-&amp;gt;A-&amp;gt;F-&amp;gt;G-&amp;gt;K-&amp;gt;N-&amp;gt;P). A total of ~75 ml radioactive solution is needed to fill all the spheres (total volume ~65 ml) and tubing volume (path 1: 48 ml, path 2: 27 ml).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-2-labelling-of-spheres-for-radioactive-solution-injection-paths&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;Figure 2: Labelling of spheres for radioactive solution injection paths.&#34; srcset=&#34;
+               /project/pet_chest_phantom_project/ctn2_hufb3b22ad5da7714f339bd9fb3d32de84_1445986_71b625ee6fa09fb81b34db7cb3c1fd80.png 400w,
+               /project/pet_chest_phantom_project/ctn2_hufb3b22ad5da7714f339bd9fb3d32de84_1445986_dbd2b5d7dfe4dc7beb0042c052313d3c.png 760w,
+               /project/pet_chest_phantom_project/ctn2_hufb3b22ad5da7714f339bd9fb3d32de84_1445986_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://ashok-tiwari.github.io/project/pet_chest_phantom_project/ctn2_hufb3b22ad5da7714f339bd9fb3d32de84_1445986_71b625ee6fa09fb81b34db7cb3c1fd80.png&#34;
+               width=&#34;760&#34;
+               height=&#34;671&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 2: Labelling of spheres for radioactive solution injection paths.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Phantom measurements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dry phantom weight = 3.54 kg&lt;/li&gt;
+&lt;li&gt;Phantom fill volume = 22.35 Liter&lt;/li&gt;
+&lt;li&gt;Total phantom weight after filling = 25.90 kg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-figure-3-imaging-of-phantom-using-discovery-mi-scanner&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;Figure 3: Imaging of phantom using Discovery MI scanner.&#34; srcset=&#34;
+               /project/pet_chest_phantom_project/ctn3_hu51525080522c42f3bcb7e6a46d54db1d_1584863_5712d21f0159e57898b2f97c5dd5124e.png 400w,
+               /project/pet_chest_phantom_project/ctn3_hu51525080522c42f3bcb7e6a46d54db1d_1584863_8a101ea2efd527b76c3fff09087dcac9.png 760w,
+               /project/pet_chest_phantom_project/ctn3_hu51525080522c42f3bcb7e6a46d54db1d_1584863_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://ashok-tiwari.github.io/project/pet_chest_phantom_project/ctn3_hu51525080522c42f3bcb7e6a46d54db1d_1584863_5712d21f0159e57898b2f97c5dd5124e.png&#34;
+               width=&#34;760&#34;
+               height=&#34;592&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Figure 3: Imaging of phantom using Discovery MI scanner.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+This phantom is currently being inspected at different institutions (University of Iowa, University of Pensylvania, and Royal Prince Alfred Hospital in Australia).&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Work in progress, &lt;strong&gt;this page&lt;/strong&gt; will be updated later!
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

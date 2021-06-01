@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Ashok&#39;s page</title>
+    <link>https://ashok-tiwari.github.io/post/</link>
+      <atom:link href="https://ashok-tiwari.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Ashok Tiwari</copyright><lastBuildDate>Mon, 31 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ashok-tiwari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>https://ashok-tiwari.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>Analyzing the output file (analysis.json) obtained from SNMMI’s Phantom Analysis Toolkit (PAT) program</title>
+      <link>https://ashok-tiwari.github.io/post/json_parsing/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/post/json_parsing/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This post will share our python developments to analyze the &lt;a href=&#34;https://www.snmmi.org/PAT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SNMMI’s Phantom Analysis Toolkit (PAT)&lt;/a&gt; analysis.json output file.&lt;/p&gt;
+&lt;p&gt;The SNMMI is providing a cloud-based automated Phantom Analysis Toolkit (PAT). Using this program, we can analyze the PET phantoms data such as: the CTN chest phantom, uniform phantom, the NEMA Image Quality phantom, and the ACR phantom data. We can upload the phantom DICOM data for analysis in this program, enter the phantom filling information, and subsequently initiate the analysis. After all these steps, we can download the results.&lt;/p&gt;
+&lt;p&gt;If one is interested in analyzing the detailed results obtained from NEMA or CTN phantoms, one could work on the analysis.json file. This file is written in JavaScript Object Notation (JSON).&lt;/p&gt;
+&lt;h2 id=&#34;parsing-json-file-using-python&#34;&gt;Parsing JSON file using Python&lt;/h2&gt;
+&lt;p&gt;Here I will describe how can we use Pandas Python data analysis library to analyze this analyse.json file. This library makes it extremely easy to visualize the data in tabular form. This library is arguably the most popular data analysis and data visualization library.&lt;/p&gt;
+&lt;p&gt;Attached is the python script to analyse and visualize the CTN phantom output analysis.json file. The code is self-explanatory, and its output is also saved in a single file to illustrate how each line of code works. The illustration was performed in Jupyter Notebook.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Python code&lt;/strong&gt;, including the analysis output, is linked here: &lt;a href=&#34;json-analysis-version-3.html&#34;&gt; click here to get a page that contains all the details&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Questions after reading this post?&lt;/em&gt;&lt;/strong&gt; Please shoot me an email at: &lt;a href=&#34;mailto:ashok-tiwari@uiowa.edu&#34;&gt;ashok-tiwari@uiowa.edu&lt;/a&gt;; I am happy to answer any questions you may have related to this work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PET data acquisition</title>
+      <link>https://ashok-tiwari.github.io/post/pet_data_acquisition/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/post/pet_data_acquisition/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Work in progress, &lt;strong&gt;this page&lt;/strong&gt; will be updated soon!!!
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--
+This is a comment!
+
+
+1. Explain the geometry of DMI PET scanner:
+2. Explain the data acquisition settings with digitizer in GATE simulation:
+3. Explain root to GATE conversion process and parameters
+4. Put figure of DMI Michelogram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-above-figure-is-called-michelogram-where-x-and-y-axis-represents-the-scanner-ring-1-and-ring-2&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;Above figure is called Michelogram, where x and y-axis represents the scanner ring 1 and ring 2. &#34; srcset=&#34;
+               /post/pet_data_acquisition/michelogram_hu337ec6705ab174e6b3299c2fa8f8453a_222776_db97fdc35c543b2eba7e6f205b2ea728.PNG 400w,
+               /post/pet_data_acquisition/michelogram_hu337ec6705ab174e6b3299c2fa8f8453a_222776_810e871f8bcf8ed60134139bdd594812.PNG 760w,
+               /post/pet_data_acquisition/michelogram_hu337ec6705ab174e6b3299c2fa8f8453a_222776_1200x1200_fit_lanczos_2.PNG 1200w&#34;
+               src=&#34;https://ashok-tiwari.github.io/post/pet_data_acquisition/michelogram_hu337ec6705ab174e6b3299c2fa8f8453a_222776_db97fdc35c543b2eba7e6f205b2ea728.PNG&#34;
+               width=&#34;760&#34;
+               height=&#34;586&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Above figure is called Michelogram, where x and y-axis represents the scanner ring 1 and ring 2.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+## Geometry of DMI PET scanner
+
+## Data Acquisition
+
+## Data corrections 
+1. Attenuation correction
+2. Randoms correction
+3. Scatter correction
+4. Normalisation correction
+
+## Image reconstructions
+
+- **Work in progress**, this page will be updated soon.
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Work in progress, &lt;strong&gt;this page&lt;/strong&gt; will be updated soon!!!
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+--&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

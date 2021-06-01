@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dose Point Kernels | Ashok&#39;s page</title>
+    <link>https://ashok-tiwari.github.io/tag/dose-point-kernels/</link>
+      <atom:link href="https://ashok-tiwari.github.io/tag/dose-point-kernels/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dose Point Kernels</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Ashok Tiwari</copyright><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ashok-tiwari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Dose Point Kernels</title>
+      <link>https://ashok-tiwari.github.io/tag/dose-point-kernels/</link>
+    </image>
+    
+    <item>
+      <title>Impact of Tissue Types on Dose Point Kernels</title>
+      <link>https://ashok-tiwari.github.io/project/dpks_project/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/project/dpks_project/</guid>
+      <description>&lt;p&gt;The aim of this work was to simulate dose point kernels for clinically-relevant radionuclide beta decays and monoenergetic electrons in varying tissue types in order to facilitate accurate patient-specific voxel-wise dosimetry. Currently available voxel-wise approaches to radionuclide dosimetry ignore tissue composition and do not account for density heterogeneities through kernel stretching. More sophisticated convolution superposition algorithms rely on robust pre-tabulated tissue-specific dose kernels, so the work described herein will support advancements in personalized dosimetry.&lt;/p&gt;
+&lt;p&gt;Simulations were performed using GATE Monte Carlo toolkit which encapsulates GEANT4 libraries. GATE is a validated simulation software for imaging, radiotherapy and dosimetry applications. Dose point kernels were simulated in phantoms of water, compact bone, lung, adipose tissue, blood, and marrow for radionuclides such as 177Lu, 90Y, 186Re, 188Re, 32P,153Sm, and 89Sr and monoenergetic electrons (0.015-10) MeV. All simulations were performed by assuming an isotropic point-source of electrons at the center of a homogeneous spherical phantom. Absorbed dose was tallied in concentric spherical shells around the point source.&lt;/p&gt;
+&lt;p&gt;Transport of 20 million particles was found to provide sufficient statistical precision in all simulated kernels. An electron step-size of 8.3% was found to yield diminishing returns in accuracy compared with 5%, where a step size of 20% yielded significant kernel inaccuracy. The simulated dose point kernels demonstrate excellent agreement with other Monte Carlo packages. Deviation from literature kernels does not exceed a 10% global difference, which is consistent with the variability between published results.&lt;/p&gt;
+&lt;p&gt;Patients stand to benefit from personalized dosimetry through control of normal tissue toxicity while simultaneously maximizing therapeutic effect. These new kernels provide the necessary inputs for next-generation voxel-wise dosimetry, which will account for tissue type and density.&lt;/p&gt;
+&lt;p&gt;Details in the publications: (1). &lt;a href=&#34;https://meridian.allenpress.com/radiation-research/article-abstract/193/6/531/436368/The-Impact-of-Tissue-Type-and-Density-on-Dose&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Impact of Tissue Type and Density on Dose Point Kernels for Patient-Specific Voxel-Wise Dosimetry: A Monte Carlo Investigation&lt;/a&gt; (2). &lt;a href=&#34;https://jnm.snmjournals.org/content/60/supplement_1/274&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Measurements of dose point kernels using GATE Monte Carlo toolkit for personalized convolution dosimetry&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

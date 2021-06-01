@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PET | Ashok&#39;s page</title>
+    <link>https://ashok-tiwari.github.io/tag/pet/</link>
+      <atom:link href="https://ashok-tiwari.github.io/tag/pet/index.xml" rel="self" type="application/rss+xml" />
+    <description>PET</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Ashok Tiwari</copyright><lastBuildDate>Sun, 02 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ashok-tiwari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>PET</title>
+      <link>https://ashok-tiwari.github.io/tag/pet/</link>
+    </image>
+    
+    <item>
+      <title>Monte Carlo Simulation of Discovery MI PET scanner</title>
+      <link>https://ashok-tiwari.github.io/project/mc_simulation_dmi/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/project/mc_simulation_dmi/</guid>
+      <description>&lt;p&gt;The aim of this work was to simulate the Discovery MI (4-ring) PET scanner using the GATE toolkit.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Work in progress, &lt;strong&gt;this page&lt;/strong&gt; will be updated soon!
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PET data acquisition</title>
+      <link>https://ashok-tiwari.github.io/post/pet_data_acquisition/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/post/pet_data_acquisition/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Work in progress, &lt;strong&gt;this page&lt;/strong&gt; will be updated soon!!!
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--
+This is a comment!
+
+
+1. Explain the geometry of DMI PET scanner:
+2. Explain the data acquisition settings with digitizer in GATE simulation:
+3. Explain root to GATE conversion process and parameters
+4. Put figure of DMI Michelogram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-above-figure-is-called-michelogram-where-x-and-y-axis-represents-the-scanner-ring-1-and-ring-2&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;Above figure is called Michelogram, where x and y-axis represents the scanner ring 1 and ring 2. &#34; srcset=&#34;
+               /post/pet_data_acquisition/michelogram_hu337ec6705ab174e6b3299c2fa8f8453a_222776_db97fdc35c543b2eba7e6f205b2ea728.PNG 400w,
+               /post/pet_data_acquisition/michelogram_hu337ec6705ab174e6b3299c2fa8f8453a_222776_810e871f8bcf8ed60134139bdd594812.PNG 760w,
+               /post/pet_data_acquisition/michelogram_hu337ec6705ab174e6b3299c2fa8f8453a_222776_1200x1200_fit_lanczos_2.PNG 1200w&#34;
+               src=&#34;https://ashok-tiwari.github.io/post/pet_data_acquisition/michelogram_hu337ec6705ab174e6b3299c2fa8f8453a_222776_db97fdc35c543b2eba7e6f205b2ea728.PNG&#34;
+               width=&#34;760&#34;
+               height=&#34;586&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Above figure is called Michelogram, where x and y-axis represents the scanner ring 1 and ring 2.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+## Geometry of DMI PET scanner
+
+## Data Acquisition
+
+## Data corrections 
+1. Attenuation correction
+2. Randoms correction
+3. Scatter correction
+4. Normalisation correction
+
+## Image reconstructions
+
+- **Work in progress**, this page will be updated soon.
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Work in progress, &lt;strong&gt;this page&lt;/strong&gt; will be updated soon!!!
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+--&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

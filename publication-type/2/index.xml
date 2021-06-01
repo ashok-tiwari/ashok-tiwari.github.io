@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Ashok&#39;s page</title>
+    <link>https://ashok-tiwari.github.io/publication-type/2/</link>
+      <atom:link href="https://ashok-tiwari.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Ashok Tiwari</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ashok-tiwari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>2</title>
+      <link>https://ashok-tiwari.github.io/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Imaging and dosimetric characteristics of 67 Cu</title>
+      <link>https://ashok-tiwari.github.io/publication/imaging_char_cu67_paper/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/publication/imaging_char_cu67_paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Absorbed dose distributions from beta‐decaying radionuclides: Experimental validation of Monte Carlo tools for radiopharmaceutical dosimetry</title>
+      <link>https://ashok-tiwari.github.io/publication/absorbed_dose_dist_med_phy/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/publication/absorbed_dose_dist_med_phy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Impact of Tissue Type and Density on Dose Point Kernels for Patient-Specific Voxel-Wise Dosimetry: A Monte Carlo Investigation</title>
+      <link>https://ashok-tiwari.github.io/publication/dpks_paper/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/publication/dpks_paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reply to “Comment on ‘Observation of annual modulation induced by γ rays from (α,γ) reactions at the Soudan Underground Laboratory&#39; ”</title>
+      <link>https://ashok-tiwari.github.io/publication/reply_comment_obser_ann_mod/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/publication/reply_comment_obser_ann_mod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Observation of annual modulation induced by γ rays from (α,γ) reactions at the Soudan Underground Laboratory</title>
+      <link>https://ashok-tiwari.github.io/publication/observation_annal_mod_paper/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/publication/observation_annal_mod_paper/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

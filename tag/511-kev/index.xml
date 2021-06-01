@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>511 keV | Ashok&#39;s page</title>
+    <link>https://ashok-tiwari.github.io/tag/511-kev/</link>
+      <atom:link href="https://ashok-tiwari.github.io/tag/511-kev/index.xml" rel="self" type="application/rss+xml" />
+    <description>511 keV</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Ashok Tiwari</copyright><lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ashok-tiwari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>511 keV</title>
+      <link>https://ashok-tiwari.github.io/tag/511-kev/</link>
+    </image>
+    
+    <item>
+      <title>511 keV photons counting simulation studies</title>
+      <link>https://ashok-tiwari.github.io/project/photon_counting_expt/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/project/photon_counting_expt/</guid>
+      <description>&lt;p&gt;The aim of this work is to calculate the self-absorption correction factor for the SIR-Sphere activity measurements.&lt;/p&gt;
+&lt;p&gt;GATE Monte Carlo simulations were used to estimate the number of 511 keV photons reached to the HPGe detector with and without the source self-attenuation (attenuation due to the source container, HDPE, glass vial, source liquid) to estimate the fraction of 511 keV photons reach to the HPGe detector out of the source. This simulation work was to simulate the 90Y source to track down the 511 keV photons detected in the HPGe detector. Instead of simulation of the full 90Y decay spectrum, only the 511 keV emissions from the source were simulated. This reduced the simulation time by the factor of ~ (1.6-1.8). A total of 10 billion 511 keV photons were simulated for precise estimation.&lt;/p&gt;
+&lt;p&gt;The material densities used in this work is HPDE of density 0.966 $ \frac{g}{cm^{3} }$, glass of density 2.58 $ \frac{g}{cm^{3} }$, water, and air of 1.25 $ \frac{mg}{cm^{3} }$. The HPDE material was directly measured from the stock material. Glass vial thickness of 0.224 cm was simulated.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;Results&lt;/strong&gt; will be included in a manuscript, which is under preparation!
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

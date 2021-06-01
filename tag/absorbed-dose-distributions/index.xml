@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Absorbed Dose Distributions | Ashok&#39;s page</title>
+    <link>https://ashok-tiwari.github.io/tag/absorbed-dose-distributions/</link>
+      <atom:link href="https://ashok-tiwari.github.io/tag/absorbed-dose-distributions/index.xml" rel="self" type="application/rss+xml" />
+    <description>Absorbed Dose Distributions</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Ashok Tiwari</copyright><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ashok-tiwari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Absorbed Dose Distributions</title>
+      <link>https://ashok-tiwari.github.io/tag/absorbed-dose-distributions/</link>
+    </image>
+    
+    <item>
+      <title>Absorbed dose distributions from beta‐decaying radionuclides: Experimental validation of Monte Carlo tools for radiopharmaceutical dosimetry</title>
+      <link>https://ashok-tiwari.github.io/publication/absorbed_dose_dist_med_phy/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/publication/absorbed_dose_dist_med_phy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beta Absorbed Dose Measurements</title>
+      <link>https://ashok-tiwari.github.io/project/beta_absorbed_dose_dis_project/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/project/beta_absorbed_dose_dis_project/</guid>
+      <description>&lt;p&gt;This project aimed to experimentally validate the GATE Monte Carlo genarated beta absorbed dose distributions. Lu177 and Y90 beta-emitting radionuclides were taken into consideraton for absorbed dose measurements. Radiochromic film (EBT3) was used as a detector for absorbed dose measurements. The film is sandwiched in between two tissue-equivalent materials purchased from &lt;a href=&#34;http://www.cirsinc.com/wp-content/uploads/2020/08/TEM-DS-062320.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIRS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The summary of this project is published in Medical Physics, 2020. &lt;a href=&#34;https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.14463&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Please click here to see the details of the experiment design, Monte Carlo simulation setup and uncertainty estimations.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

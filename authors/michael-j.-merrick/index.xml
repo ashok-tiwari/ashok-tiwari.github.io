@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michael J. Merrick | Ashok&#39;s page</title>
+    <link>https://ashok-tiwari.github.io/authors/michael-j.-merrick/</link>
+      <atom:link href="https://ashok-tiwari.github.io/authors/michael-j.-merrick/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michael J. Merrick</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Ashok Tiwari</copyright><lastBuildDate>Sat, 12 Jun 2021 08:30:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ashok-tiwari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Michael J. Merrick</title>
+      <link>https://ashok-tiwari.github.io/authors/michael-j.-merrick/</link>
+    </image>
+    
+    <item>
+      <title>Monte Carlo simulation of 4-ring Discovery MI PET/CT scanner and its extended axial field-of-view to 2 m</title>
+      <link>https://ashok-tiwari.github.io/talk/monte-carlo-simulation-of-4-ring-discovery-mi-pet/ct-scanner-and-its-extended-axial-field-of-view-to-2-m/</link>
+      <pubDate>Sat, 12 Jun 2021 08:30:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/talk/monte-carlo-simulation-of-4-ring-discovery-mi-pet/ct-scanner-and-its-extended-axial-field-of-view-to-2-m/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation slides.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    This is an &lt;strong&gt;accepted version&lt;/strong&gt; of abstract for poster presentation in SNMMI Virtual Annual Meeting 2021, which is yet to be presented!
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
