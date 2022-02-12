@@ -5,12 +5,36 @@
     <link>https://ashok-tiwari.github.io/publication/</link>
       <atom:link href="https://ashok-tiwari.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Ashok Tiwari</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Ashok Tiwari</copyright><lastBuildDate>Sat, 12 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ashok-tiwari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>https://ashok-tiwari.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>SIR-Spheres activity measurements reveal systematic miscalibration</title>
+      <link>https://ashok-tiwari.github.io/publication/sir_spheres/</link>
+      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/publication/sir_spheres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monte Carlo evaluation of hypothetical long axial field-of-view PET scanner using GE Discovery MI PET front-end architecture</title>
+      <link>https://ashok-tiwari.github.io/publication/pet_sim/</link>
+      <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/publication/pet_sim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Half-Life of 67 Cu</title>
+      <link>https://ashok-tiwari.github.io/publication/half_life_cu67/</link>
+      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/publication/half_life_cu67/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Imaging and dosimetric characteristics of 67 Cu</title>
