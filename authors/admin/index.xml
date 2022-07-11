@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ashok Tiwari | Ashok&#39;s page</title>
+    <title>Ashok Tiwari, Ph.D. | Ashok&#39;s page</title>
     <link>https://ashok-tiwari.github.io/authors/admin/</link>
       <atom:link href="https://ashok-tiwari.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    <description>Ashok Tiwari</description>
+    <description>Ashok Tiwari, Ph.D.</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Ashok Tiwari</copyright><lastBuildDate>Mon, 31 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ashok-tiwari.github.io/authors/admin/avatar_hu88f9206821abc70c14061fe1da0be4f3_896584_270x270_fill_q75_lanczos_center.jpg</url>
-      <title>Ashok Tiwari</title>
+      <title>Ashok Tiwari, Ph.D.</title>
       <link>https://ashok-tiwari.github.io/authors/admin/</link>
     </image>
     
@@ -22,7 +22,7 @@
 &lt;p&gt;The SNMMI is providing a cloud-based automated Phantom Analysis Toolkit (PAT). Using this program, we can analyze the PET phantoms data such as: the CTN chest phantom, uniform phantom, the NEMA Image Quality phantom, and the ACR phantom data. We can upload the phantom DICOM data for analysis in this program, enter the phantom filling information, and subsequently initiate the analysis. After all these steps, we can download the results.&lt;/p&gt;
 &lt;p&gt;If one is interested in analyzing the detailed results obtained from NEMA or CTN phantoms, one could work on the analysis.json file. This file is written in JavaScript Object Notation (JSON).&lt;/p&gt;
 &lt;h2 id=&#34;parsing-json-file-using-python&#34;&gt;Parsing JSON file using Python&lt;/h2&gt;
-&lt;p&gt;Here I will describe how can we use Pandas Python data analysis library to analyze this analyse.json file. This library makes it extremely easy to visualize the data in tabular form. This library is arguably the most popular data analysis and data visualization library.&lt;/p&gt;
+&lt;p&gt;Here I will describe how can we use Pandas Python data analysis library to analyze this analyse.json file. This library makes it extremely easy to visualize the data in tabular form. We can even use this library to create and manipulate dataframes. This library is arguably the most popular data analysis and data visualization library. Matplotlib library was used to plot the data.&lt;/p&gt;
 &lt;p&gt;Attached is the python script to analyse and visualize the CTN phantom output analysis.json file. The code is self-explanatory, and its output is also saved in a single file to illustrate how each line of code works. The illustration was performed in Jupyter Notebook.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The Python code&lt;/strong&gt;, including the analysis output, is linked here: &lt;a href=&#34;json-analysis-version-3.html&#34;&gt; click here to get a page that contains all the details&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Questions after reading this post?&lt;/em&gt;&lt;/strong&gt; Please shoot me an email at: &lt;a href=&#34;mailto:ashok-tiwari@uiowa.edu&#34;&gt;ashok-tiwari@uiowa.edu&lt;/a&gt;; I am happy to answer any questions you may have related to this work.&lt;/p&gt;
