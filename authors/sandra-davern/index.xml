@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sandra Davern | Ashok&#39;s page</title>
+    <link>https://ashok-tiwari.github.io/authors/sandra-davern/</link>
+      <atom:link href="https://ashok-tiwari.github.io/authors/sandra-davern/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sandra Davern</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2024 Ashok Tiwari</copyright><lastBuildDate>Mon, 22 Jul 2024 02:50:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ashok-tiwari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Sandra Davern</title>
+      <link>https://ashok-tiwari.github.io/authors/sandra-davern/</link>
+    </image>
+    
+    <item>
+      <title>Validation of Monte Carlo Simulations to Assess DNA Damage from 225Ac for Radiopharmaceutical Therapy</title>
+      <link>https://ashok-tiwari.github.io/talk/validation-of-monte-carlo-simulations-to-assess-dna-damage-from-225ac-for-radiopharmaceutical-therapy/</link>
+      <pubDate>Mon, 22 Jul 2024 02:50:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/talk/validation-of-monte-carlo-simulations-to-assess-dna-damage-from-225ac-for-radiopharmaceutical-therapy/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation slides.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

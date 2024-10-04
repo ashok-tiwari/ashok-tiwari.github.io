@@ -5,12 +5,51 @@
     <link>https://ashok-tiwari.github.io/event/</link>
       <atom:link href="https://ashok-tiwari.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Ashok Tiwari</copyright><lastBuildDate>Sat, 12 Jun 2021 08:30:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2024 Ashok Tiwari</copyright><lastBuildDate>Mon, 22 Jul 2024 02:50:00 +0000</lastBuildDate>
     <image>
       <url>https://ashok-tiwari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://ashok-tiwari.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Validation of Monte Carlo Simulations to Assess DNA Damage from 225Ac for Radiopharmaceutical Therapy</title>
+      <link>https://ashok-tiwari.github.io/talk/validation-of-monte-carlo-simulations-to-assess-dna-damage-from-225ac-for-radiopharmaceutical-therapy/</link>
+      <pubDate>Mon, 22 Jul 2024 02:50:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/talk/validation-of-monte-carlo-simulations-to-assess-dna-damage-from-225ac-for-radiopharmaceutical-therapy/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation slides.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transitioning from OSLDs to TLDs for in-Vivo Dosimetry in Total Skin Electron Therapy: A Clinical Perspective</title>
+      <link>https://ashok-tiwari.github.io/talk/transitioning-from-oslds-to-tlds-for-in-vivo-dosimetry-in-total-skin-electron-therapy-a-clinical-perspective/</link>
+      <pubDate>Sun, 21 Jul 2024 07:50:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/talk/transitioning-from-oslds-to-tlds-for-in-vivo-dosimetry-in-total-skin-electron-therapy-a-clinical-perspective/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation slides.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transitioning from OSLDs to TLDs for in-Vivo Dosimetry in Total Skin Electron Therapy: A Clinical Perspective</title>
+      <link>https://ashok-tiwari.github.io/talk/transitioning-from-oslds-to-tlds-for-in-vivo-dosimetry-in-total-skin-electron-therapy-a-clinical-perspective/</link>
+      <pubDate>Sat, 27 Apr 2024 07:50:00 +0000</pubDate>
+      <guid>https://ashok-tiwari.github.io/talk/transitioning-from-oslds-to-tlds-for-in-vivo-dosimetry-in-total-skin-electron-therapy-a-clinical-perspective/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation slides.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Monte Carlo simulation of 4-ring Discovery MI PET/CT scanner and its extended axial field-of-view to 2 m</title>
