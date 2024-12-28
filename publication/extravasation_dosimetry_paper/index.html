@@ -1,0 +1,1235 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.1.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Ashok Tiwari, PhD" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Background: The increasing use of nuclear medicine and PET imaging has intensified scrutiny of radiotracer extravasation. To our knowledge, this topic is understudied but holds great potential for enhancing our understanding of extravasation in clinical PET imaging. 
+
+Purpose: This work aims to (1) quantify the absorbed doses from radiotracer extravasation in PET imaging, both locally at the site of extravasation and with the extravasation location as a source of exposure to bodily organs and (2) assess the biological ramifications within the injection site at the cellular level. 
+
+Methods: A radiation dosimetry simulation was performed using a whole-body 4D Extended Cardiac-Torso (XCAT) phantom embedded in the GATE Monte Carlo platform. A 10-mCi dose of 18F-FDG was chosen to simulate a typical clinical PET scan scenario, with 10% of the activity extravasated in the antecubital fossa of the right arm of the phantom. The extravasation volume was modeled as a 5.5 mL rectangle in the hypodermal layer of skin. Absorbed dose contributions were calculated for the first two half-lives, assuming biological clearance thereafter. Dose calculations were performed as absorbed doses at the organ and skin levels. Energy deposition was simulated both at the local extravasation site and in multiple organs of interest and converted to absorbed doses based on their respective masses. Each simulation was repeated ten times to estimate Monte Carlo uncertainties. Biological impacts on cells within the extravasated volume were evaluated by randomizing cells and exposing them to a uniform radiation source of 18F and 68Ga. Particle types, their energies, and direction cosines were recorded in phase space files using a separate Geant4 simulation to characterize their entry into the nucleus of the cellular volume. Subsequently, the phase space files were imported into the TOPAS-nBio simulation to assess the extent of DNA damage, including double-strand breaks (DSBs) and single-strand breaks (SSBs). 
+
+Results: Organ-level dosimetric estimations are presented for 18F and 68Ga radionuclides in various organs of interest. With 10% extravasation, the hypodermal layer of the skin received the highest absorbed dose of 1.32 ± 0.01 Gy for 18F and 0.99 ± 0.01 Gy for 68Ga. The epidermal and dermal layers received absorbed doses of 0.07 ± 0.01 Gy and 0.13 ± 0.01 Gy for 18F, and 0.14 ± 0.01 Gy and 0.29 ± 0.01 Gy for 68Ga, respectively. In the extravasated volume, 18F caused an average absorbed dose per nucleus of 0.17 ± 0.01 Gy, estimated to result in 10.58 ± 0.50 DSBs and 268.11 ± 12.43 SSBs per nucleus. For 68Ga, the absorbed dose per nucleus was 0.11 ± 0.01 Gy, leading to an estimated 6.49 ± 0.34 DSBs and 161.24 ± 8.12 SSBs per nucleus. Absorbed doses in other organs were on the order of micro-gray (µGy). 
+
+Conclusion: The likelihood of epidermal erythema resulting from extravasation during PET imaging is low, as the simulated absorbed doses to the epidermis remain below the thresholds that trigger such effects. Moreover, the organ-level absorbed doses were found to be clinically insignificant across various simulated organs. The minimal DNA damage at the extravasation site suggests that long-term harm, such as radiation-induced carcinogenesis, is highly unlikely. " />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://ashok-tiwari.github.io/publication/extravasation_dosimetry_paper/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.2171611642e257a9376c46e0a9ac5ab8.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="https://ashok-tiwari.github.io/publication/extravasation_dosimetry_paper/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Ashok&#39;s page" />
+  <meta property="og:url" content="https://ashok-tiwari.github.io/publication/extravasation_dosimetry_paper/" />
+  <meta property="og:title" content="Dosimetric and biological impact of activity extravasation of radiopharmaceuticals in PET imaging | Ashok&#39;s page" />
+  <meta property="og:description" content="Background: The increasing use of nuclear medicine and PET imaging has intensified scrutiny of radiotracer extravasation. To our knowledge, this topic is understudied but holds great potential for enhancing our understanding of extravasation in clinical PET imaging. 
+
+Purpose: This work aims to (1) quantify the absorbed doses from radiotracer extravasation in PET imaging, both locally at the site of extravasation and with the extravasation location as a source of exposure to bodily organs and (2) assess the biological ramifications within the injection site at the cellular level. 
+
+Methods: A radiation dosimetry simulation was performed using a whole-body 4D Extended Cardiac-Torso (XCAT) phantom embedded in the GATE Monte Carlo platform. A 10-mCi dose of 18F-FDG was chosen to simulate a typical clinical PET scan scenario, with 10% of the activity extravasated in the antecubital fossa of the right arm of the phantom. The extravasation volume was modeled as a 5.5 mL rectangle in the hypodermal layer of skin. Absorbed dose contributions were calculated for the first two half-lives, assuming biological clearance thereafter. Dose calculations were performed as absorbed doses at the organ and skin levels. Energy deposition was simulated both at the local extravasation site and in multiple organs of interest and converted to absorbed doses based on their respective masses. Each simulation was repeated ten times to estimate Monte Carlo uncertainties. Biological impacts on cells within the extravasated volume were evaluated by randomizing cells and exposing them to a uniform radiation source of 18F and 68Ga. Particle types, their energies, and direction cosines were recorded in phase space files using a separate Geant4 simulation to characterize their entry into the nucleus of the cellular volume. Subsequently, the phase space files were imported into the TOPAS-nBio simulation to assess the extent of DNA damage, including double-strand breaks (DSBs) and single-strand breaks (SSBs). 
+
+Results: Organ-level dosimetric estimations are presented for 18F and 68Ga radionuclides in various organs of interest. With 10% extravasation, the hypodermal layer of the skin received the highest absorbed dose of 1.32 ± 0.01 Gy for 18F and 0.99 ± 0.01 Gy for 68Ga. The epidermal and dermal layers received absorbed doses of 0.07 ± 0.01 Gy and 0.13 ± 0.01 Gy for 18F, and 0.14 ± 0.01 Gy and 0.29 ± 0.01 Gy for 68Ga, respectively. In the extravasated volume, 18F caused an average absorbed dose per nucleus of 0.17 ± 0.01 Gy, estimated to result in 10.58 ± 0.50 DSBs and 268.11 ± 12.43 SSBs per nucleus. For 68Ga, the absorbed dose per nucleus was 0.11 ± 0.01 Gy, leading to an estimated 6.49 ± 0.34 DSBs and 161.24 ± 8.12 SSBs per nucleus. Absorbed doses in other organs were on the order of micro-gray (µGy). 
+
+Conclusion: The likelihood of epidermal erythema resulting from extravasation during PET imaging is low, as the simulated absorbed doses to the epidermis remain below the thresholds that trigger such effects. Moreover, the organ-level absorbed doses were found to be clinically insignificant across various simulated organs. The minimal DNA damage at the extravasation site suggests that long-term harm, such as radiation-induced carcinogenesis, is highly unlikely. " /><meta property="og:image" content="https://ashok-tiwari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" />
+    <meta property="twitter:image" content="https://ashok-tiwari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2024-11-20T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2024-11-20T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ashok-tiwari.github.io/publication/extravasation_dosimetry_paper/"
+  },
+  "headline": "Dosimetric and biological impact of activity extravasation of radiopharmaceuticals in PET imaging",
+  
+  "datePublished": "2024-11-20T00:00:00Z",
+  "dateModified": "2024-11-20T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Ashok Tiwari, Matthew Andriotty, Greeshma Agasthya, John J. Sunderland, Dustin R. Osborne and Anuj J. Kapadia"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ashok's page",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ashok-tiwari.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Background: The increasing use of nuclear medicine and PET imaging has intensified scrutiny of radiotracer extravasation. To our knowledge, this topic is understudied but holds great potential for enhancing our understanding of extravasation in clinical PET imaging. \n\nPurpose: This work aims to (1) quantify the absorbed doses from radiotracer extravasation in PET imaging, both locally at the site of extravasation and with the extravasation location as a source of exposure to bodily organs and (2) assess the biological ramifications within the injection site at the cellular level. \n\nMethods: A radiation dosimetry simulation was performed using a whole-body 4D Extended Cardiac-Torso (XCAT) phantom embedded in the GATE Monte Carlo platform. A 10-mCi dose of 18F-FDG was chosen to simulate a typical clinical PET scan scenario, with 10% of the activity extravasated in the antecubital fossa of the right arm of the phantom. The extravasation volume was modeled as a 5.5 mL rectangle in the hypodermal layer of skin. Absorbed dose contributions were calculated for the first two half-lives, assuming biological clearance thereafter. Dose calculations were performed as absorbed doses at the organ and skin levels. Energy deposition was simulated both at the local extravasation site and in multiple organs of interest and converted to absorbed doses based on their respective masses. Each simulation was repeated ten times to estimate Monte Carlo uncertainties. Biological impacts on cells within the extravasated volume were evaluated by randomizing cells and exposing them to a uniform radiation source of 18F and 68Ga. Particle types, their energies, and direction cosines were recorded in phase space files using a separate Geant4 simulation to characterize their entry into the nucleus of the cellular volume. Subsequently, the phase space files were imported into the TOPAS-nBio simulation to assess the extent of DNA damage, including double-strand breaks (DSBs) and single-strand breaks (SSBs). \n\nResults: Organ-level dosimetric estimations are presented for 18F and 68Ga radionuclides in various organs of interest. With 10% extravasation, the hypodermal layer of the skin received the highest absorbed dose of 1.32 ± 0.01 Gy for 18F and 0.99 ± 0.01 Gy for 68Ga. The epidermal and dermal layers received absorbed doses of 0.07 ± 0.01 Gy and 0.13 ± 0.01 Gy for 18F, and 0.14 ± 0.01 Gy and 0.29 ± 0.01 Gy for 68Ga, respectively. In the extravasated volume, 18F caused an average absorbed dose per nucleus of 0.17 ± 0.01 Gy, estimated to result in 10.58 ± 0.50 DSBs and 268.11 ± 12.43 SSBs per nucleus. For 68Ga, the absorbed dose per nucleus was 0.11 ± 0.01 Gy, leading to an estimated 6.49 ± 0.34 DSBs and 161.24 ± 8.12 SSBs per nucleus. Absorbed doses in other organs were on the order of micro-gray (µGy). \n\nConclusion: The likelihood of epidermal erythema resulting from extravasation during PET imaging is low, as the simulated absorbed doses to the epidermis remain below the thresholds that trigger such effects. Moreover, the organ-level absorbed doses were found to be clinically insignificant across various simulated organs. The minimal DNA damage at the extravasation site suggests that long-term harm, such as radiation-induced carcinogenesis, is highly unlikely. "
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Dosimetric and biological impact of activity extravasation of radiopharmaceuticals in PET imaging | Ashok&#39;s page</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="69786a061217e4460e576eadd0fec05a" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.226a9011996d125bf3fe4a5f22353a49.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Dosimetric and biological impact of activity extravasation of radiopharmaceuticals in PET imaging</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/ashok-tiwari-matthew-andriotty-greeshma-agasthya-john-j.-sunderland-dustin-r.-osborne-and-anuj-j.-kapadia/">Ashok Tiwari, Matthew Andriotty, Greeshma Agasthya, John J. Sunderland, Dustin R. Osborne and Anuj J. Kapadia</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    November 2024
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="/publication/extravasation_dosimetry_paper/dosimetric_and_bio.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://aapm.onlinelibrary.wiley.com/doi/10.1002/mp.17520" target="_blank" rel="noopener">
+  Source Document
+</a>
+
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract"><p>Background: The increasing use of nuclear medicine and PET imaging has intensified scrutiny of radiotracer extravasation. To our knowledge, this topic is understudied but holds great potential for enhancing our understanding of extravasation in clinical PET imaging.</p>
+<p>Purpose: This work aims to (1) quantify the absorbed doses from radiotracer extravasation in PET imaging, both locally at the site of extravasation and with the extravasation location as a source of exposure to bodily organs and (2) assess the biological ramifications within the injection site at the cellular level.</p>
+<p>Methods: A radiation dosimetry simulation was performed using a whole-body 4D Extended Cardiac-Torso (XCAT) phantom embedded in the GATE Monte Carlo platform. A 10-mCi dose of 18F-FDG was chosen to simulate a typical clinical PET scan scenario, with 10% of the activity extravasated in the antecubital fossa of the right arm of the phantom. The extravasation volume was modeled as a 5.5 mL rectangle in the hypodermal layer of skin. Absorbed dose contributions were calculated for the first two half-lives, assuming biological clearance thereafter. Dose calculations were performed as absorbed doses at the organ and skin levels. Energy deposition was simulated both at the local extravasation site and in multiple organs of interest and converted to absorbed doses based on their respective masses. Each simulation was repeated ten times to estimate Monte Carlo uncertainties. Biological impacts on cells within the extravasated volume were evaluated by randomizing cells and exposing them to a uniform radiation source of 18F and 68Ga. Particle types, their energies, and direction cosines were recorded in phase space files using a separate Geant4 simulation to characterize their entry into the nucleus of the cellular volume. Subsequently, the phase space files were imported into the TOPAS-nBio simulation to assess the extent of DNA damage, including double-strand breaks (DSBs) and single-strand breaks (SSBs).</p>
+<p>Results: Organ-level dosimetric estimations are presented for 18F and 68Ga radionuclides in various organs of interest. With 10% extravasation, the hypodermal layer of the skin received the highest absorbed dose of 1.32 ± 0.01 Gy for 18F and 0.99 ± 0.01 Gy for 68Ga. The epidermal and dermal layers received absorbed doses of 0.07 ± 0.01 Gy and 0.13 ± 0.01 Gy for 18F, and 0.14 ± 0.01 Gy and 0.29 ± 0.01 Gy for 68Ga, respectively. In the extravasated volume, 18F caused an average absorbed dose per nucleus of 0.17 ± 0.01 Gy, estimated to result in 10.58 ± 0.50 DSBs and 268.11 ± 12.43 SSBs per nucleus. For 68Ga, the absorbed dose per nucleus was 0.11 ± 0.01 Gy, leading to an estimated 6.49 ± 0.34 DSBs and 161.24 ± 8.12 SSBs per nucleus. Absorbed doses in other organs were on the order of micro-gray (µGy).</p>
+<p>Conclusion: The likelihood of epidermal erythema resulting from extravasation during PET imaging is low, as the simulated absorbed doses to the epidermis remain below the thresholds that trigger such effects. Moreover, the organ-level absorbed doses were found to be clinically insignificant across various simulated organs. The minimal DNA damage at the extravasation site suggests that long-term harm, such as radiation-induced carcinogenesis, is highly unlikely.</p>
+</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#2">
+              Journal article
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>Medical Physics Journal</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://ashok-tiwari.github.io/publication/extravasation_dosimetry_paper/&amp;text=Dosimetric%20and%20biological%20impact%20of%20activity%20extravasation%20of%20radiopharmaceuticals%20in%20PET%20imaging" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://ashok-tiwari.github.io/publication/extravasation_dosimetry_paper/&amp;t=Dosimetric%20and%20biological%20impact%20of%20activity%20extravasation%20of%20radiopharmaceuticals%20in%20PET%20imaging" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Dosimetric%20and%20biological%20impact%20of%20activity%20extravasation%20of%20radiopharmaceuticals%20in%20PET%20imaging&amp;body=https://ashok-tiwari.github.io/publication/extravasation_dosimetry_paper/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://ashok-tiwari.github.io/publication/extravasation_dosimetry_paper/&amp;title=Dosimetric%20and%20biological%20impact%20of%20activity%20extravasation%20of%20radiopharmaceuticals%20in%20PET%20imaging" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Dosimetric%20and%20biological%20impact%20of%20activity%20extravasation%20of%20radiopharmaceuticals%20in%20PET%20imaging%20https://ashok-tiwari.github.io/publication/extravasation_dosimetry_paper/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://ashok-tiwari.github.io/publication/extravasation_dosimetry_paper/&amp;title=Dosimetric%20and%20biological%20impact%20of%20activity%20extravasation%20of%20radiopharmaceuticals%20in%20PET%20imaging" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    Copyright © 2024 Ashok Tiwari
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js" integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.b61a8f62b6e5c0cd322c8158c5b5dfb6.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
